@@ -1,0 +1,13 @@
+Source: bootscript-odroidn2
+Section: admin
+Priority: optional
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/tobetter/u-boot
+
+Package: bootscript-odroidn2
+Architecture: arm64
+Depends: ${misc:Depends}, flash-kernel
+Description: Boot script to run by U-boot
+ This package will execute once on the first boot since installed.

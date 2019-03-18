@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Copyright (C) 2019 Dongjin Kim <tobetter@gmail.com>
+#
+
+set -e
+
+update-bootscript
