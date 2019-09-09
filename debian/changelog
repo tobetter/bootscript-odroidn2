@@ -1,3 +1,9 @@
+bootscript-odroidn2 (2019.09) stable; urgency=medium
+
+  * refactorying the directory structure to run upstream kernel
+
+ -- Dongjin Kim <tobetter@gmail.com>  Mon, 09 Sep 2019 16:53:20 +0000
+
 bootscript-odroidn2 (2019.05) stable; urgency=medium
 
   * Update *.postinst/rm

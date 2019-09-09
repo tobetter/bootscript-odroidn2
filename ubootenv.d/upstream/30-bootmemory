@@ -1,0 +1,1 @@
+setenv fdt_addr_r "0x20000000"

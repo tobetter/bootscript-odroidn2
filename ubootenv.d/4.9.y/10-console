@@ -1,0 +1,6 @@
+# Default serial console
+setenv console "ttyS0,115200n8"
+
+# Default TTY console
+setenv bootargs "${bootargs} console=tty1"
+
