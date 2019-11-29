@@ -1,0 +1,17 @@
+bootscript-odroid-exynos5422 (2019.09) stable; urgency=medium
+
+  * refactorying the directory structure to run upstream kernel
+
+ -- Dongjin Kim <tobetter@gmail.com>  Mon, 09 Sep 2019 16:53:20 +0000
+
+bootscript-odroid-exynos5422 (2019.05) stable; urgency=medium
+
+  * Update *.postinst/rm
+
+ --  Dongjin Kim <tobetter@gmail.com>  Fri, 24 May 2019 02:15:06 +0900
+
+bootscript-odroid-exynos5422 (2019.03) stable; urgency=medium
+
+  * Initial release.
+
+ -- Dongjin Kim <tobetter@gmail.com>  Mon, 18 Mar 2019 13:06:36 -0400

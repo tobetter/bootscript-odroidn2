@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# Copyright (C) 2019 Dongjin Kim <tobetter@gmail.com>
+#
+
+set -x
+
+case "$1" in
+	purge)
+		rm -f /usr/share/flash-kernel/ubootenv.d/*
+		update-bootscript || true
+		;;
+	remove|upgrade|failed-upgrade|abort-upgrade|abort-install)
+		;;
+	*)
+		echo "postrm called with unknown argument \`$1'" >&2
+		exit 1
+		;;
+esac
+
+#DEBHELPER#
+
+exit 0

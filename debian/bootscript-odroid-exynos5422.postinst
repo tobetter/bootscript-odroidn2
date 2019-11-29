@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# Copyright (C) 2019 Dongjin Kim <tobetter@gmail.com>
+#
+
+set -x
+
+case "$1" in
+	configure)
+		update-bootscript || true
+		;;
+	triggered)
+		update-bootscript || true
+		;;
+	abort-upgrade|abort-remove|abort-deconfigure)
+		;;
+	*)
+		echo "postinst called with unknown argument \`$1'" >&2
+		exit 1
+		;;
+esac
+
+##DEBHELPER##
+
+exit 0
