@@ -8,6 +8,6 @@ Homepage: https://github.com/tobetter/u-boot
 
 Package: bootscript-odroidn2
 Architecture: arm64
-Depends: ${misc:Depends}, flash-kernel
+Depends: ${misc:Depends}, flash-kernel, u-boot-tools
 Description: Boot script to run by U-boot
  This package will execute once on the first boot since installed.
