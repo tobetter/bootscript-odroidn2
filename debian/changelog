@@ -1,3 +1,9 @@
+bootscript-odroidgo2 (2020.03) stable; urgency=medium
+
+  * Reset for 'bootscript-odroidgo2'
+
+ -- Dongjin Kim <tobetter@gmail.com>  Wed, 25 Mar 2020 16:50:08 +0900
+
 bootscript-odroidn2 (2019.09) stable; urgency=medium
 
   * refactorying the directory structure to run upstream kernel

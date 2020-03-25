@@ -1,1 +1,1 @@
-# bootscript-odroidn2
+# bootscript-odroidgo2

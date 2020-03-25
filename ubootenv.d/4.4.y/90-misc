@@ -1,0 +1,2 @@
+# MISC
+setenv bootargs "${bootargs} net.iframes=0 fsck.repair=yes"
