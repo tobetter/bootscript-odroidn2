@@ -1,4 +1,4 @@
-Source: bootscript-odroidn2
+Source: bootscript-odroidc4
 Section: admin
 Priority: optional
 Maintainer: Dongjin Kim <tobetter@gmail.com>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: https://github.com/tobetter/u-boot
 
-Package: bootscript-odroidn2
+Package: bootscript-odroidc4
 Architecture: arm64
 Depends: ${misc:Depends}, flash-kernel, u-boot-tools
 Description: Boot script to run by U-boot
