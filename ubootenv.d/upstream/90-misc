@@ -1,1 +1,2 @@
+setenv bootargs "${bootargs} cma=800M"
 setenv bootargs "${bootargs} clk_ignore_unused"
