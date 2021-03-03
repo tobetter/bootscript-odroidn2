@@ -1,0 +1,3 @@
+if test -n "${fbcon}"; then
+    setenv bootargs "${bootargs} fbcon=${fbcon}"
+fi

@@ -1,1 +1,2 @@
 ubootenv.d/*	/usr/share/flash-kernel/ubootenv.d/
+preboot.d/*	/usr/share/flash-kernel/preboot.d/
