@@ -1,1 +1,2 @@
 # MISC
+setenv bootargs "${bootargs} fsck.mode=force fsck.repair=yes"
