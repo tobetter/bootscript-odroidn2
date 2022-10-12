@@ -1,3 +1,4 @@
 setenv bootargs "${bootargs} cma=800M"
 setenv bootargs "${bootargs} clk_ignore_unused"
 setenv bootargs "${bootargs} fsck.mode=force fsck.repair=yes"
+setenv bootargs "${bootargs} net.ifnames=0"

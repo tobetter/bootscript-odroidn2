@@ -1,2 +1,3 @@
 # MISC
 setenv bootargs "${bootargs} fsck.mode=force fsck.repair=yes"
+setenv bootargs "${bootargs} net.ifnames=0"
